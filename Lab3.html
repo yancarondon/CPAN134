@@ -1,0 +1,32 @@
+<html>
+    <head><title>Lab 3</title></head>
+    <body>
+        <label for="telephone">Please enter your phone number:</label>
+        <input type="tel" name="telephone" id="telephone" maxlength="10"></input>
+        <br>
+        <br>
+        <label for="search">Search for your course here:</label>
+        <input type="search" name="searchBox" id="searchBox"></input>
+        <br>
+        <br>
+        <label for="course">Select your course:</label>
+        <input type="text" name="course" id="course" list="courses">
+        <datalist id="courses">
+            <option value="CPAN134" label="CPAN 134"></option>
+            <option value="CPAN133" label="CPAN 133"></option>
+            <option value="CPAN132" label="CPAN 132"></option>
+            <option value="CPAN131" label="CPAN 131"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="rating">Rate the selected course:</label>
+        <br>
+        0 <input type="range" name="rating" id="rating" min="0" max="10"> 10
+        <br>
+        <br>
+        <label for="profileColour">Please choose the colour for your student profile:</label>
+        <input type="color" name="profileColour" id="profileColour"></input>
+        <br>
+        <br>
+    </body>
+</html>
